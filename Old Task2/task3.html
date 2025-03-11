@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CSS float Layout</title>
+        <style>
+           .header {
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+}
+
+.aside {
+    width: 25%;
+
+    /* floats both sidebar to left */
+    float: left;
+    height: 200px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.right{
+
+}
+
+.footer {
+    /* moves the footer below the floated elements, else
+    footer starts behind the floated elements */
+    clear: both;
+
+    border: 2px solid black;
+    height: 40px;
+    background-color: orange;
+    text-align: center;
+}
+        </style>
+    </head>
+
+    <body>
+        <header>Header</header>
+
+        <!-- Creating three column-based layout -->
+
+        <main>
+            <div class="left">Sidebar 1</div>
+            <aside class="right">Sidebar </aside>
+        </main>
+       
+        <footer>Footer</footer>
+    </body>
+</html>

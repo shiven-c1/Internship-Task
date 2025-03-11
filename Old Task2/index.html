@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKE XYZ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(20, 19, 19);
+            color: #333;
+        }
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://www.waitfashion.com/wp-content/uploads/2022/05/travis-x-nike-cop.png');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: #fff;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 10px 20px;
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: black;
+        }
+
+        .navbar nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            text-align: center;
+            background-color: rgb(178, 83, 83);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-card .details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        .product-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .product-card .price {
+            color: #28a745;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .product-card button {
+            background-color: rgb(188, 62, 62);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">NIKE</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </nav>
+    </div>
+
+
+
+    <div class="banner">
+        
+    </div>
+
+
+
+    <div class="products">
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/24/1d/21/241d21345c09c454180c008c63c7ba52.jpg" alt="Product 1">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$99.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/ee/93/ca/ee93cafd79c56a60c65a8588ad127e8e.jpg" alt="Product 2">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$149.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/24/1d/21/241d21345c09c454180c008c63c7ba52.jpg" alt="Product 3">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$59.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/ee/93/ca/ee93cafd79c56a60c65a8588ad127e8e.jpg" alt="Product 4">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$89.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/24/1d/21/241d21345c09c454180c008c63c7ba52.jpg" alt="Product 5">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$199.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/ee/93/ca/ee93cafd79c56a60c65a8588ad127e8e.jpg" alt="Product 6">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$249.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/24/1d/21/241d21345c09c454180c008c63c7ba52.jpg" alt="Product 7">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$39.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/ee/93/ca/ee93cafd79c56a60c65a8588ad127e8e.jpg" alt="Product 8">
+            <div class="details">
+                <h3>NIKE XYZ SHOE</h3>
+                <p>Shop Travis Scott Air Jordan 1 High OG</p>
+                <div class="price">$29.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
